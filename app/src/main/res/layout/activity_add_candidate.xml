@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:foregroundTint="#E12121"
+    tools:context=".AddCandidateActivity">
+
+    <TextView
+        android:id="@+id/addcantxt"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+
+        android:layout_above="@+id/addcannametxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="62dp"
+        android:text="Add Candidate"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="337dp"
+        android:background="#FF5722"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546">
+
+
+        <RadioButton
+            android:id="@+id/radioone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BEBA2626"
+
+            android:text="General Sec"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/radiotwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8E2D2D"
+
+            android:text="Literary Sec"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/radiothree"
+            android:layout_width="186dp"
+            android:layout_height="33dp"
+
+            android:layout_marginEnd="132dp"
+            android:layout_marginBottom="97dp"
+            android:background="#37E91E63"
+            android:text="Vice President"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="255dp" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/addcannametxt"
+        android:layout_width="214dp"
+        android:layout_height="30dp"
+
+
+        android:layout_above="@+id/radioGroup"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="-41dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="59dp"
+        android:background="#FAFAFA"
+        android:hint="Candidate Full Name"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addcantxt"
+        app:layout_constraintVertical_bias="0.852" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="176dp"
+        android:layout_height="34dp"
+
+        android:layout_above="@+id/radioGroup"
+        android:layout_alignTop="@+id/radioGroup"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="-38dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="4dp"
+        android:text="Candidate Position"
+        android:textAlignment="center"
+
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addcantxt"
+        app:layout_constraintVertical_bias="0.916" />
+
+    <Button
+        android:id="@+id/addcandibtn"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+
+
+        android:layout_alignTop="@+id/radioGroup"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="111dp"
+        android:background="#009688"
+        android:text="Add Candidate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="187dp"
+        android:layout_height="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="128dp"
+        android:text="Enter Candidate Name"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</RelativeLayout>

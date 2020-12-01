@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LiveCounting">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vice President"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:id="@+id/live_counting_layout1"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:id="@+id/live_counting_textview_name1"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:id="@+id/live_counting_textview_count1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:id="@+id/live_counting_layout2"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:id="@+id/live_counting_textview_name2"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:id="@+id/live_counting_textview_count2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:id="@+id/live_counting_layout3"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:id="@+id/live_counting_textview_name3"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/live_counting_textview_count3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:id="@+id/live_counting_layout4"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:id="@+id/live_counting_textview_name4"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:id="@+id/live_counting_textview_count4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:id="@+id/live_counting_layout5"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:id="@+id/live_counting_textview_name5"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:id="@+id/live_counting_textview_count5"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Literary Sec"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:id="@+id/live_counting_layout6"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:id="@+id/live_counting_textview_name6"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:id="@+id/live_counting_textview_count6"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/live_counting_layout7"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textColor="#000"
+            android:id="@+id/live_counting_textview_name7"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/live_counting_textview_count7"
+            android:layout_marginEnd="30dp"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/live_counting_layout8"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textColor="#000"
+            android:id="@+id/live_counting_textview_name8"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:id="@+id/live_counting_textview_count8"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/live_counting_layout9"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textColor="#000"
+            android:id="@+id/live_counting_textview_name9"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:id="@+id/live_counting_textview_count9"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:id="@+id/live_counting_layout10"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textColor="#000"
+            android:id="@+id/live_counting_textview_name10"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:textColor="#000"
+            android:id="@+id/live_counting_textview_count10"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="General Sec"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:id="@+id/live_counting_layout11"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textColor="#000"
+            android:id="@+id/live_counting_textview_name11"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:id="@+id/live_counting_textview_count11"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:id="@+id/live_counting_layout12"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/live_counting_textview_name12"
+            android:text="name"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:id="@+id/live_counting_textview_count12"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/live_counting_layout13"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:id="@+id/live_counting_textview_name13"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:textColor="#000"
+            android:id="@+id/live_counting_textview_count13"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/live_counting_layout14"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textColor="#000"
+            android:id="@+id/live_counting_textview_name14"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:textColor="#000"
+            android:id="@+id/live_counting_textview_count14"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/live_counting_layout15"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:id="@+id/live_counting_textview_name15"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:id="@+id/live_counting_textview_count15"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

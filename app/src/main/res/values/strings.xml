@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SCVOTE</string>
+    <string-array name="names">
+        <item> Vice President </item>
+        <item> General Sec </item>
+        <item> Literary Sec </item>
+        <item> Cultural Sec </item>
+    </string-array>
+</resources>

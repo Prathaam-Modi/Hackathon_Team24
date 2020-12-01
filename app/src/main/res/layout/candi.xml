@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harsh sharma"
+
+        android:textSize="20sp"
+        android:id="@+id/candi_name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="position"
+        android:layout_below="@+id/candi_name"
+        android:textSize="20sp"
+        android:id="@+id/candi_pos"
+        />
+
+    <Button
+        android:id="@+id/btncandel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="delete" />
+
+</RelativeLayout>
