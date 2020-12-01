@@ -32,7 +32,11 @@ Setup/Installations required to run the solution
 1. Android Studio : To Build and Analyze the APK
 2. Android Mobile Device/ Android Emulator : To run the build (application).
 
-Instructions to run the submitted code
+Instructions to run the submitted code:
+1. Run SCVOTE\app\build\outputs\apk\debug\app-debug.apk on android emulator/Device.
+
+				OR
+
 1. Open the the repository locally on Android Studio
 2. Initiate an Android Vitual Device or connect your Android Phone through USB.
 3. Press the Run App button on the top bar of the Android Studio or press (Shift+F10).
