@@ -3,11 +3,15 @@ package com.example.scvote;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.app.Fragment;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -16,6 +20,8 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -30,11 +36,14 @@ import java.util.Random;
 public class HomeActivity3 extends AppCompatActivity {
 
     private Button finish;
+    FirebaseAuth mAuth;
+    FirebaseUser firebaseUser;
     FirebaseFirestore mydb;
     private RadioButton cs[]=new RadioButton[5];
     private RadioGroup vprg;
     private Button next;
     String selcan;
+    ProgressBar pbr;
     String vpstr,lsstr;
 
     @Override
@@ -43,6 +52,8 @@ public class HomeActivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_home3);
         next=findViewById(R.id.finbtn);
         mydb=FirebaseFirestore.getInstance();
+        mAuth=FirebaseAuth.getInstance();
+       firebaseUser=FirebaseAuth.getInstance().getCurrentUser();
         cs[0]=findViewById(R.id.cs1);
         cs[1]=findViewById(R.id.cs2);
         cs[2]=findViewById(R.id.cs3);
@@ -72,6 +83,8 @@ public class HomeActivity3 extends AppCompatActivity {
                         transaction.update(sfDocRef, "votes", newVotes);
 
                         // Success
+
+
                         return null;
                     }
                 });
@@ -110,11 +123,8 @@ public class HomeActivity3 extends AppCompatActivity {
                     }
                 });
 
-
-
-
-
-
+                Toast.makeText(HomeActivity3.this, "Thankyou for Voting", Toast.LENGTH_LONG).show();
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
 
 
             }

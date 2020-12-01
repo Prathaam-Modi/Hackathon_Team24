@@ -65,6 +65,7 @@ public class AddCandidateActivity extends AppCompatActivity {
                 candidate.put("votes","0");
 
                 mydb.collection("candidates").document(cname).set(candidate);
+                name.getText().clear();
                 Toast.makeText(AddCandidateActivity.this, "Candidate has been added!", Toast.LENGTH_SHORT).show();
 //
             }
