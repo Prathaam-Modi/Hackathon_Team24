@@ -54,5 +54,7 @@ Member Name : Prathaam Modi;
 Email : pm030800@gmail.com ;	
 Contribution : Solo App Build.
 
-References
-Affix links to the online tools/repositories/blogs etc., which helped you along the development of the project
+References:
+https://firebase.google.com/docs/android/setup
+https://stackoverflow.com/
+https://www.youtube.com/
