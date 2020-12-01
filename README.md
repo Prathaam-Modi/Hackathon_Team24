@@ -33,6 +33,10 @@ Setup/Installations required to run the solution
 2. Android Mobile Device/ Android Emulator : To run the build (application).
 
 Instructions to run the submitted code:
+
+NOTE: ADMIN USE can be accesed by 'admin@gmail.com' and password '123456'
+NOTE: Stuudent login can be done by using my personal official id : 'prathaam_201800651@smit.smu.edu.in' and password '201800651'
+NOTE: Once the prototype is fully developed, students can login with their own official id and Reg.No as password.
 1. Run SCVOTE\app\build\outputs\apk\debug\app-debug.apk on android emulator/Device.
 
 				OR
