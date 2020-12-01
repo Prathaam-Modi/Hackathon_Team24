@@ -39,7 +39,11 @@ Instructions to run the submitted code
 4. The Application will start running on the AVD/Android Mobile Device.
 
 Screenshots
-Affix the relevant screenshots of the developed project here.
+![Image 4](https://user-images.githubusercontent.com/59971728/100730939-d7c44b00-33f2-11eb-895d-13669a4f03f0.png)
+![Image 8](https://user-images.githubusercontent.com/59971728/100730941-d8f57800-33f2-11eb-95d3-7a279db3d012.png)
+![Screenshot_1606780385](https://user-images.githubusercontent.com/59971728/100730943-d98e0e80-33f2-11eb-93cb-9d73438b812d.png)
+![Screenshot_1606780390](https://user-images.githubusercontent.com/59971728/100730946-da26a500-33f2-11eb-99dd-31dd239a0dc0.png)
+
 
 Team Members
 List of team member names and email IDs with their contributions.
