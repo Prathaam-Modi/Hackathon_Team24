@@ -35,8 +35,9 @@ Affix the relevant screenshots of the developed project here.
 Team Members
 List of team member names and email IDs with their contributions.
 
-Member          Name	Email      	Contribution
-Prathaam Modi	pm030800@gmail.com	Solo App Build
+Member Name : Prathaam Modi
+Email : pm030800@gmail.com	
+Contribution : Solo App Build
 
 References
 Affix links to the online tools/repositories/blogs etc., which helped you along the development of the project
