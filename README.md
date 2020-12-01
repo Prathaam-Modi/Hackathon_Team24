@@ -45,6 +45,14 @@ Screenshots:
 ![Image 7](https://user-images.githubusercontent.com/59971728/100731284-4a352b00-33f3-11eb-843b-4d396fd851f6.png)
 ![Image 8](https://user-images.githubusercontent.com/59971728/100730941-d8f57800-33f2-11eb-95d3-7a279db3d012.png)
 
+![Screenshot_20201201-202459](https://user-images.githubusercontent.com/59971728/100754617-647f0100-3413-11eb-9c2a-a3f68fe5bf27.png)
+![Screenshot_20201201-183728](https://user-images.githubusercontent.com/59971728/100754601-5fba4d00-3413-11eb-828c-20bb240a813c.png)
+![Screenshot_20201201-183755](https://user-images.githubusercontent.com/59971728/100754604-60eb7a00-3413-11eb-8e4d-5b32aab08833.png)
+![Screenshot_20201201-183809](https://user-images.githubusercontent.com/59971728/100754607-61841080-3413-11eb-80ea-a5cb022854ef.png)
+![Screenshot_20201201-183819](https://user-images.githubusercontent.com/59971728/100754611-634dd400-3413-11eb-8ed8-ec955394732b.png)
+
+
+
 
 
 Team Members
@@ -55,6 +63,6 @@ Email : pm030800@gmail.com ;
 Contribution : Solo App Build.
 
 References:
-https://firebase.google.com/docs/android/setup
-https://stackoverflow.com/
-https://www.youtube.com/
+https://firebase.google.com/docs/android/setup ; 
+https://stackoverflow.com/ ; 
+https://www.youtube.com/ ;
