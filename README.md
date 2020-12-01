@@ -38,11 +38,13 @@ Instructions to run the submitted code
 3. Press the Run App button on the top bar of the Android Studio or press (Shift+F10).
 4. The Application will start running on the AVD/Android Mobile Device.
 
-Screenshots
+Screenshots:
+
 ![Image 4](https://user-images.githubusercontent.com/59971728/100730939-d7c44b00-33f2-11eb-895d-13669a4f03f0.png)
 ![Image 8](https://user-images.githubusercontent.com/59971728/100730941-d8f57800-33f2-11eb-95d3-7a279db3d012.png)
-![Screenshot_1606780385](https://user-images.githubusercontent.com/59971728/100730943-d98e0e80-33f2-11eb-93cb-9d73438b812d.png)
-![Screenshot_1606780390](https://user-images.githubusercontent.com/59971728/100730946-da26a500-33f2-11eb-99dd-31dd239a0dc0.png)
+![Image 5](https://user-images.githubusercontent.com/59971728/100731282-4903fe00-33f3-11eb-972f-4b2191c12285.png)
+![Image 7](https://user-images.githubusercontent.com/59971728/100731284-4a352b00-33f3-11eb-843b-4d396fd851f6.png)
+
 
 
 Team Members
