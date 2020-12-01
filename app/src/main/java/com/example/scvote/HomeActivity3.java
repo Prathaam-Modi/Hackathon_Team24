@@ -53,7 +53,7 @@ public class HomeActivity3 extends AppCompatActivity {
         next=findViewById(R.id.finbtn);
         mydb=FirebaseFirestore.getInstance();
         mAuth=FirebaseAuth.getInstance();
-       firebaseUser=FirebaseAuth.getInstance().getCurrentUser();
+
         cs[0]=findViewById(R.id.cs1);
         cs[1]=findViewById(R.id.cs2);
         cs[2]=findViewById(R.id.cs3);
@@ -122,9 +122,19 @@ public class HomeActivity3 extends AppCompatActivity {
                         return null;
                     }
                 });
+                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
-                Toast.makeText(HomeActivity3.this, "Thankyou for Voting", Toast.LENGTH_LONG).show();
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                user.delete()
+                        .addOnCompleteListener(new OnCompleteListener<Void>() {
+                            @Override
+                            public void onComplete(@NonNull Task<Void> task) {
+                                if (task.isSuccessful()) {
+                                    Toast.makeText(HomeActivity3.this, "Thankyou for Voting", Toast.LENGTH_LONG).show();
+                                    startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                                }
+                            }
+                        });
+
 
 
             }

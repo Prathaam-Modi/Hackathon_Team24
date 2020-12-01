@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
 
                             Toast.makeText(getApplicationContext(),"Login Complete",Toast.LENGTH_SHORT).show();
                         }else{
-                            Toast.makeText(getApplicationContext(),"Login Failed",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(),"You've already voted!",Toast.LENGTH_SHORT).show();
                         }
 
                     }
