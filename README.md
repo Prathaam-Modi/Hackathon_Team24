@@ -37,7 +37,12 @@ Instructions to run the submitted code:
 NOTE: ADMIN USE can be accesed by 'admin@gmail.com' and password '123456'
 NOTE: Stuudent login can be done by using my personal official id : 'prathaam_201800651@smit.smu.edu.in' and password '201800651'
 NOTE: Once the prototype is fully developed, students can login with their own official id and Reg.No as password.
-1. Run SCVOTE\app\build\outputs\apk\debug\app-debug.apk on android emulator/Device.
+
+1.Download the DEMO apk build from : 'https://firebasestorage.googleapis.com/v0/b/scvote-1e7f4.appspot.com/o/app-debug.apk?alt=media&token=4da04539-639a-40ba-9a89-3cf8cc336d1a'
+
+				OR
+
+1.Run SCVOTE\app\build\outputs\apk\debug\app-debug.apk on android emulator/Device.
 
 				OR
 
